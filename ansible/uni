@@ -1,0 +1,7 @@
+---
+- hosts: local
+  vars:
+    source: "package"
+
+  roles:
+  - OBS Studio

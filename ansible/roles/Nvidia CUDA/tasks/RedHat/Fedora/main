@@ -1,0 +1,8 @@
+---
+
+- name: Install Nvidia CUDA
+  ansible.builtin.dnf:
+    name:
+      - xorg-x11-drv-nvidia-cuda
+    state: latest
+  become: true

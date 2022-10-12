@@ -1,0 +1,11 @@
+---
+
+- ansible.builtin.include_role:
+    name: rpmfusion
+
+- name: Install OBS Studio
+  ansible.builtin.dnf:
+    name:
+      - obs-studio
+    state: latest
+  become: true
