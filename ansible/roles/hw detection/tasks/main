@@ -1,0 +1,5 @@
+---
+
+lspci | grep VGA | grep "Intel"
+
+lspci | grep VGA | grep "NVIDIA"
